@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/style.css"> 
+
+    <title>Hotel</title>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Hotel Palermo</h1>
+    <div class="galeria">
+        <div class="fotos">
+            <!-- <div class="foto-1">  -->
+            <img src="image/descarga.jfif" height="200px" width="300px" alt="patio">
+             <!-- </div>  -->
+             <!-- <div class="foto-2">  -->
+                <img src="image/foto2.jfif"   height="200px" width="300px" alt="patio">
+             <!-- </div>  -->
+            <!-- <div class="foto-3">  -->
+                <img src="image/foto3.jfif"  height="200px" width="300px" alt="patio">
+             <!-- </div> -->
+            <!-- <div class="foto-4">  -->
+                <img src="image/foto4.jfif"  height="200px" width="300px" alt="patio">
+           
+
+        </div>
+    </div>
+    <!-- tablas -->
+    <div class="tablas">
+        <table border="2"> 
+            <tr class="table-success"> 
+              <th> Individual </th> 
+              <th> Doble </th> 
+              <th> Triple </th> 
+              <th> Departamento </th> 
+              
+            </tr> 
+            <tr>
+                <th>una habitación asignada a una persona. Puede tener una o más camas.</th>
+                <th>una habitación asignada a dos personas</th>
+                <th>una habitación asignada a tres personas. Puede tener dos o más camas.</th>
+                <th>Un salón o sala de estar conectada a uno o más dormitorios.</th>
+            </tr>
+          </table> 
+    </div>
+    <div class="reserva">
+        <div class="contianer">
+            <h2> Hace tu Reserva</h2>
+            <form class="caja-main">
+                <div class="cajas">
+                Nombre: <input type="text"  id="txtNombre" class="form-control form-control-sm"><br>
+                </div>
+                <div class="cajas">
+                    
+                    Apellido: <input type="text" id="txtApellido" class="form-control form-control-sm"><br>
+                </div>
+                <div class="cajas">
+                    telefono: <input type="number" id="txtTelefono" class="form-control form-control-sm"><br>
+                </div>
+                <div class="cajas">
+                 Direccion: <input type="text" id="txtDireccion" class="form-control form-control-sm"><br>
+                    </div>
+                <div class="cajas">
+                 email: <input type="email" name="" id="txtemail" class="form-control"><br>
+              </div>
+              <div class="cajas">
+                fecha de ingreso: <input type="datetime" name="" id="ingreso"><br>
+             </div>
+              <div class="cajas">
+    
+              Selecciona el tipo de pizza: 
+              <select name="habitación" id="cboHabitacion">
+                  <option value="">Seleccione la Habitacion</option>
+                   <option value="1">Single</option>
+                   <option value="2">doble</option>
+                   <option value="3">tripe</option>
+                   <option value="3">departamento</option>
+               </select>
+               <br>
+               <p><b>Seleccione si Necesita Cochera</b></p>
+               SI: <input type="radio" name="cochera" value="1" id="rbn-positivo">
+               No: <input type="radio" name="cochera" value="2" id="rbn-positivo">
+               
+             </div>
+             <div class="boton">
+                
+                 <input type="submit"  class="btn btn-primary" id="guardar" value="Reservar" onclick="exito()">
+
+                 
+
+             </div>
+            
+
+    </div>
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

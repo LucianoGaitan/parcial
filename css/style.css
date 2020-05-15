@@ -1,0 +1,21 @@
+.fotos{
+   display: inline;
+
+}
+
+.caja-main{
+    background-color: rgb(201, 152, 96);
+   
+    width: 40%;
+}
+.cajas{
+    width: 70%;
+   padding-left: 70px;
+}
+.boton{
+    padding-top: 50px;
+    margin-left: 70px;
+    margin-right: 40px;
+    padding-right: 30px;
+    padding-left: 50px;
+}
